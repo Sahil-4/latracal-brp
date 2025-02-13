@@ -9,7 +9,7 @@ const getReviews = async (req: Request, res: Response) => {
     const take = Number(req.query.limit) || 10;
     const skip = (page - 1) * take;
 
-    const data = await Review.find({ book: bookId });
+    const data = await Review.find({ book: bookId }).sort({ createdAt: -1 }).exec();
     const treviews = await Review.countDocuments({ book: bookId });
     const meta = {
       currentPage: page,
