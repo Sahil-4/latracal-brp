@@ -1,0 +1,23 @@
+.bookDetailsContainer {
+  width: 480px;
+  margin: 0 auto;
+  display: grid;
+  grid-template: "A B" "C C";
+}
+
+.bookThumbnailContainer {
+  grid-area: "A";
+}
+
+.bookMetaContainer {
+  grid-area: "B";
+}
+
+.bookDescriptionContainer {
+  grid-area: "C";
+}
+
+.bookReviewsContainer {
+  width: 480px;
+  margin: 0 auto;
+}

@@ -1,0 +1,19 @@
+.bookItem {
+  background: var(--accent);
+  margin: 4px;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.bookItemControls {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.bookItemControls > a {
+  height: 28px;
+  width: 96px;
+  margin: 4px;
+  display: block;
+}

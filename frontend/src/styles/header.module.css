@@ -1,0 +1,27 @@
+.header {
+  height: 52px;
+  background: var(--accent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.header > nav {
+  display: flex;
+  gap: 8px;
+}
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: transparent;
+}
+
+.profile {
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,5 @@
+.reviewItem {
+  background: var(--accent);
+  margin: 4px;
+  padding: 12px;
+}
